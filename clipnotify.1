@@ -1,0 +1,22 @@
+.TH CLIPNOTIFY 1
+.SH NAME
+clipnotify \- an X selection monitor
+.SH SYNOPSIS
+.B clipnotify
+.SH DESCRIPTION
+clipnotify is a simple program that waits until a new X selection is available
+and then exits.
+.P
+This program was primarily designed to be used with clipmenu to avoid polling
+for new selections.
+.P
+.SH EXAMPLES
+.TP
+.PP
+  while clipnotify; do
+    [an event happened, do something with the selection]
+  done
+.SH SEE ALSO
+.BR clipmenu(1)
+.SH AUTHOR
+Chris Down

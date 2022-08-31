@@ -1,4 +1,5 @@
 PREFIX ?= /usr/local
+MANPREFIX=${PREFIX}/share/man
 
 x11_bsd_flags = -I/usr/X11R6/include -L/usr/X11R6/lib
 
@@ -9,6 +10,8 @@ install: all
 	mkdir -p ${DESTDIR}${PREFIX}/bin
 	cp -f clipnotify ${DESTDIR}${PREFIX}/bin
 	chmod 755 ${DESTDIR}${PREFIX}/bin/clipnotify
+	cp -f clipnotify.1 ${DESTDIR}${MANPREFIX}/man1
+	chmod 644 ${DESTDIR}${MANPREFIX}/man1/clipnotify.1
 
 uninstall:
 	rm -f ${DESTDIR}${PREFIX}/bin/clipnotify
