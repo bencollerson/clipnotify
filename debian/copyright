@@ -1,0 +1,17 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: clipnotify
+Source: https://github.com/cdown/clipnotify
+
+Files: *
+Copyright: 2018- Chris Down
+License: public-domain
+  This is free and unencumbered software released into the public domain.
+
+  Anyone is free to copy, modify, publish, use, compile, sell, or distribute this
+  software, either in source code form or as a compiled binary, for any purpose,
+  commercial or non-commercial, and by any means.
+
+Files: debian/*
+Copyright: 2022- Ben Collerson <benc@benc.cc>
+License: public-domain
+  These files are public domain.

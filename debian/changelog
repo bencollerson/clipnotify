@@ -1,0 +1,5 @@
+clipnotify (1.0.2+git20200925.a9faca4-1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Ben Collerson <benc@benc.cc>  Wed, 31 Aug 2022 14:21:49 +1000

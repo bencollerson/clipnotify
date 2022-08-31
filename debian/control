@@ -1,0 +1,12 @@
+Source: clipnotify
+Maintainer: Ben Collerson <benc@benc.cc>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: clipnotify
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: clipnotify is a simple program that, using the XFIXES extension to
+ X11, waits until a new selection is available and then exits.
